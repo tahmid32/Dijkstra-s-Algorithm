@@ -3,7 +3,8 @@ import copy
 
 class Graph():
     def __init__(self, n, c, nodes_list, connections):
-        self.nodes = nself.connections = c 
+        self.nodes = n
+        self.connections = c 
         self.unvisited_list = nodes_list
         self.connections_dict = connections
     
